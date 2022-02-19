@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact info</title>
+</head>
+
+<body>
+  <h1>Contact info</h1>
+  <p>Phone number:09999543</p>
+  <p>Email: bigpp@gmail.com</p>
+  <hr>
+  <form action="mailto:info@gmail.com" method="post" enctype="text/plain">
+    <!-- in order to put a form like section use <form></form> but its like invisible like a table -->
+    <label for="">Your Name:</label>
+    <!-- <label for=""></label> literally makes a label for you <input type="text" name="" value=""> -->
+    <input type="text" name="yourName" value=""><br>
+    <!-- <input type="text" name="" value=""> can make like "insert name here" boxes just make sure you put the right type. you can know what they are by documentation -->
+    <label for="">Your Email:</label>
+    <input type="email" name="yourEmail" value=""><br>
+    <label for="">Your Message:</label><br>
+    <textarea name="name" rows="10" cols="30"></textarea><br>
+    <input type="submit" name="submit" value="">
+  </form>
+</body>
+
+</html>
